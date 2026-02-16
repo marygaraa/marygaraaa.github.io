@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TMJ Luxuria Store</title>
+  <style>
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+ }
+
+  body {
+      background: rgba(234, 216, 186, 0.61);
+ }
+
+  .header {
+      background: rgba(187, 126, 21, 0.61);
+      color: white;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+ }
+
+  .logo {
+     font-size: 22px;
+     font-weight: bold;
+ }
+
+  .search-box {
+     display: flex;
+ }
+
+  .search-box input {
+     padding: 8px;
+     width: 250px;
+     border: none;
+ }
+
+  .search-box button {
+     background: rgba(206, 147, 44, 0.61);
+     border: none;
+     color: white;
+     padding: 8px 12px;
+ }
+
+  .bottom a {
+     color: white;
+     margin-left: 15px;
+     text-decoration: none;
+ }
+
+  .store-info {
+    background: rgba(195, 140, 44, 0.61);
+    padding: 2px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+ }
+  #Logo {
+    width: 250px;
+    height: 210px;
+ }
+
+ .store-info img {
+    border-radius: 50%;
+ }
+
+  .follow {
+    background: #ee4d2d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+ }
+
+  .nav {
+     background: white;
+     padding: 10px 20px;
+     text-align: center;
+     font-size: 25px;
+ }
+
+  .nav a {
+     margin-right: 20px;
+     text-decoration: none;
+     color: Black;
+ }
+
+   .nav .active {
+     color: rgb(238, 77, 45);
+     font-weight: bold;
+ }
+
+  .vouchers {
+     display: flex;
+     gap: 50px;
+     padding: 30px;
+     text-align: center;
+ }
+
+   .voucher {
+      background: #fff0f0;
+      border: 1px dashed rgb(238, 77, 45);
+      padding: 15px;
+      width: 300px;
+ }
+
+  .voucher button {
+     background: rgb(238, 77, 45);
+     color: white;
+     border: none;
+     padding: 5px;
+     margin-top: 10px;
+ }
+   
+   .headings {
+      color: rgba(70, 65, 65, 1);
+      font-size: 15px;
+ }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 40px;
+    padding: 80px;
+ }
+
+ .product {
+   background: white;
+   padding: 15px;
+   text-align: center;
+ }
+
+ .price {
+   color:rgb(238, 77, 45);
+   font-weight: bold;
+ }
+
+ .product img {
+    width: 100%;
+ }
+ 
+  h4 {
+     font-size: 20px;
+ }
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="logo">🛍 TMJ Luxuria Mall</div>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search in this shop">
+    <button>🔍</button>
+  </div>
+
+  <div class="bottom">
+    <a href="#Notification">Notification</a>
+    <a href="#Help">Help</a>
+    <a href="#English">English</a>
+    <a href="#Login">Login</a>
+    <a href="#Sign">Sign Up</a>
+  </div>
+</header>
+
+<section class="store-info">
+  <img src="C:\Users\CUSTOMER\Downloads\TMJ LUXURIA LOGO.png" alt="Store Logo" id="Logo">
+  <div>
+    <h2>LUXURIA OFFICIAL STORE</h2>
+    <p>⭐ 4.8 | Followers: 8.5B</p>
+  </div>
+</section>
+
+<nav class="nav">
+  <a href="#Home" class="active">Home</a> 
+  <a href="#Products">All Products</a> 
+  <a href="#Bagpack">Bagpack</a> 
+  <a href="#ShoulderBag">Shoulder Bag</a> 
+  <a href="#ToteBag">Tote Bag</a> 
+  <a href="#BeltBag">Belt Bag</a> 
+  <a href="#ClutchBag">Clutch Bag</a> 
+  <a href="#MiniBag">Mini Bag</a> 
+  <a href="#MoonBag">Moon Bag</a> 
+</nav>
+
+<section id="Home">
+<section class="vouchers">
+  <div class="voucher">
+    <h3>20% OFF</h3>
+    <p>Min. Spend ₱400</p>
+    <button>Claim</button>
+  </div>
+
+  <div class="voucher">
+    <h3>18% OFF</h3>
+    <p>Min. Spend ₱300</p>
+    <button>Claim</button>
+  </div>
+  
+  <div class="voucher">
+    <h3>15% OFF</h3>
+    <p>Min. Spend ₱200</p>
+    <button>Claim</button>
+  </div>
+
+  <div class="voucher">
+    <h3>10% OFF</h3>
+    <p>Min. Spend ₱100</p>
+    <button>Claim</button>
+  </div>
+</section>
+
+ <div class="headings">
+    <h1> &nbsp Recommended for you</h1>
+ </div>
+
+<section id="Products">
+<section class="products">
+  <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\Clutch bag.jpg">
+    <h4>Shoulder Bag</h4>
+  </div>
+  <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\bag pack.jpg">
+    <h4>Bag pack</h4>
+  </div>
+  <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\shoulder bag.jpg">
+    <h4>Mini Bag</h4>
+  </div>
+  <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\totebag.jpg">
+    <h4>Tote Bag</h4>
+  </div>
+   <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\belt bag.jpg">
+    <h4>Belt Bag</h4>
+  </div>
+   <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\clutch bag (2).jpg">
+    <h4>Clutch Bag</h4>
+  </div>
+   <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\moon bag.jpg">
+    <h4>Moon Bag</h4>
+  </div>
+</section>
+ <div class="headings">
+    <h1> &nbsp Bagpack</h1>
+ </div>
+<section id="Bagpack">
+<section class="products">
+  <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\bag.jpg">
+    <h4>TMJ Luxuria white and pink coquette bagpack</h4>
+    <p class="price">₱15,999</p>
+  </div>
+  <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\black bag.jpg">
+    <h4>TMJ Luxuria Men Black bagpack</h4>
+    <p class="price">₱20,999</p>
+  </div>
+  <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\blue-grey.jpg">
+    <h4>TMJ Luxuria Blue-grey combination bagpack</h4>
+    <p class="price">₱23,000</p>
+  </div>
+  <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\vintage.jpg">
+    <h4>TMJ Luxuria Vintage bagpack</h4>
+    <p class="price">₱19,000</p>
+  </div>
+  </section>
+  <div class="headings">
+    <h1> &nbsp Shoulder Bag</h1>
+ </div>
+<section id="ShoulderBag">
+<section class="products">
+   <div class="product">
+    <img src="C:\Users\CUSTOMER\Downloads\vintage.jpg">
+    <h4>TMJ Luxuria Vintage bagpack</h4>
+    <p class="price">₱19,000</p>
+  </div>
+</body>
+</html>
